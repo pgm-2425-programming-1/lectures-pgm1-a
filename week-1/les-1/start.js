@@ -1,9 +1,9 @@
-// 1. console.log
+// dit is een console log
+console.log("Hallo iedereen");
 
-// 2. variabelen aanmaken
+console.log("Dit is een tweede console log");
 
-// 2.1. Old-school (var)
+const name = "Joanna";
 
-// 2.2. New-school (let, const)
-
-// 3. Data types
+console.log("Hallo " + name);
+console.log("Hoe gaat het " + name + "?");
