@@ -6,6 +6,10 @@ if (currentCourse === "Programming 1") {
   console.log("We krijgen momenteel een ander vak");
 }
 
+if (currentCourse !== "Programming 1") {
+  console.log("Het vak is niet Programming 1");
+}
+
 const isTuesday = false;
 
 if (isTuesday) {
