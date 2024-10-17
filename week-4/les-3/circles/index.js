@@ -9,12 +9,12 @@ const colors = ["red", "blue", "green", "orange", "purple", "yellow"];
 
 let html = "";
 
-for (let i = 0; i < 3000; i++) {
-  const randomWidth = generateRandomNumber(35);
+for (let i = 0; i < 2500; i++) {
+  const randomWidth = generateRandomNumber(45);
   const randomColor = colors[generateRandomNumber(colors.length - 1)];
   const randomTop = generateRandomNumber(window.innerHeight - randomWidth);
   const randomLeft = generateRandomNumber(window.innerWidth - randomWidth);
-  html += `<div class="circle" style="background-color: ${randomColor}; width: ${randomWidth}px; height: ${randomWidth}px; left: ${randomLeft}px; top: ${randomTop}px;"></div>`;
+  html += `<div class="circle" style="animation-delay: -${Math.random()}s; background-color: ${randomColor}; width: ${randomWidth}px; height: ${randomWidth}px; left: ${randomLeft}px; top: ${randomTop}px;"></div>`;
 }
 
 $circles.innerHTML = html;

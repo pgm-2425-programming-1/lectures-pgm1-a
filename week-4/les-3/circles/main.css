@@ -19,7 +19,7 @@
   height: 25px;
   border-radius: 50%;
 
-  animation: scale 0.2s infinite;
+  animation: scale 1s infinite;
 }
 
 .circles {
