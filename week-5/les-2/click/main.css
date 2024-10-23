@@ -1,0 +1,56 @@
+.rectangle {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ffc110;
+
+  position: fixed;
+
+  cursor: pointer;
+  transition: transform 0.1s ease-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: #51852b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  left: 2vw;
+  top: 2vh;
+
+  z-index: 10;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:nth-child(2) {
+    background: #f02306;
+    left: 10vw;
+  }
+}
+
+.rectangle:nth-child(1) {
+  left: 10vw;
+  top: 30vh;
+}
+
+.rectangle:nth-child(2) {
+  left: 40vw;
+  top: 10vh;
+}
+
+.rectangle:nth-child(3) {
+  left: 2vw;
+  top: 70vh;
+}
+
+.rectangle:nth-child(4) {
+  left: 80vw;
+  top: 20vh;
+}
