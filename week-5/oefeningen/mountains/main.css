@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mountains-list {
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+  list-style-type: none;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.mountains-list__item {
+  background-color: orange;
+  flex-grow: 1;
+}
