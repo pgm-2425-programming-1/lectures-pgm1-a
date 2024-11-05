@@ -1,0 +1,17 @@
+.circle {
+  background: green;
+  border-radius: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  width: 5rem;
+  height: 5rem;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.circle.alternative {
+  background: red;
+  border-radius: 0;
+}
