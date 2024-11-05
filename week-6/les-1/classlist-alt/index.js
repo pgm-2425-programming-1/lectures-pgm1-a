@@ -5,6 +5,7 @@
   $btn.innerHTML = getButtonText();
 
   $btn.addEventListener("click", function (e) {
+    // kortste manier
     $circle.classList.toggle("alternative");
 
     $btn.innerHTML = getButtonText();
