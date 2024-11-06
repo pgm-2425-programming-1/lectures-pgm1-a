@@ -13,9 +13,9 @@
 
   function getButtonText() {
     if ($circle.classList.contains("alternative")) {
-      return "Toon cirkel";
+      return "Toon de cirkel";
     } else {
-      return "Toon rechthoek";
+      return "Toon de rechthoek";
     }
   }
 })();
